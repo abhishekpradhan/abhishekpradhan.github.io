@@ -14,22 +14,26 @@ header
 {
 	top:0;
 	width: 100%;
-	padding: 15px;
 	background-color: rgb(109, 180, 199);
 	position: fixed;
 }
 
-	header h1
+	header>div
 	{
-		float: left;
+		padding: 15px;
 	}
 
-	header ul
-	{
-		float: right;
-	}
-
-		header ul li
+		header h1
 		{
-			display:inline;
+			float: left;
 		}
+
+		header ul
+		{
+			float: right;
+		}
+
+			header ul li
+			{
+				display:inline;
+			}
