@@ -35,6 +35,9 @@ header
 		header h1
 		{
 			float: left;
+			height: 30px;
+			font-size: 25px;
+			vertical-align: middle;
 		}
 
 		header ul
@@ -46,3 +49,8 @@ header
 			{
 				display:inline;
 			}
+
+#content
+{
+	margin-top: 50px;
+}
