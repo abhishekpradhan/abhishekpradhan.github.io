@@ -52,5 +52,40 @@ header
 
 #content
 {
-	margin-top: 50px;
+	margin: 50px auto 0;
+	padding-top: 15px;
+	max-width: 800px;
 }
+
+#summary
+{
+	padding: 5px;
+	border: 1px rgb(100, 100, 100);
+	box-shadow: 0px 0px 6px rgb(150, 150, 150);
+}
+
+#projects
+{
+}
+
+	#projects li
+	{
+		display: inline-block;
+		width: 398px;
+		box-sizing: border-box;
+	}
+
+	#projects .projectcard
+	{
+		margin: 10px 10px 10px 0px;
+		border: 1px rgb(100, 100, 100);
+		box-shadow: 0px 0px 6px rgb(150, 150, 150);
+		padding: 5px;
+	}
+
+	#projects li:nth-child(even) .projectcard
+	{;
+		margin-left:10px;
+		margin-right:0px;
+	}
+
