@@ -24,6 +24,7 @@ header
 	width: 100%;
 	background-color: rgb(109, 180, 199);
 	position: fixed;
+	z-index: 1;
 }
 
 	header>div
@@ -77,15 +78,34 @@ header
 
 	#projects .projectcard
 	{
+		position:relative;
 		margin: 10px 10px 10px 0px;
 		border: 1px rgb(100, 100, 100);
 		box-shadow: 0px 0px 6px rgb(150, 150, 150);
 		padding: 5px;
+		height: 200px;
 	}
 
 	#projects li:nth-child(even) .projectcard
-	{;
+	{
 		margin-left:10px;
 		margin-right:0px;
+	}
+	#projects .projectdescription {
+		float:left;
+		width: 226px;
+		vertical-align: middle;
+	}
+
+	#projects .projectimage
+	{
+		background-image: url(http://d1hwvnnkb0v1bo.cloudfront.net/content/art/app/icons/bing-icon.png);
+		background-size: contain;
+		background-position:center center;
+		background-repeat: no-repeat;
+		float: right;
+		width: 150px;
+		height: 100%;
+		vertical-align: middle;
 	}
 
