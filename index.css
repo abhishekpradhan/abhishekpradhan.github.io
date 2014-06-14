@@ -7,10 +7,12 @@ body, html
 {
 	padding: 0px;
 	margin: 0px;
+	width: 100%;
 }
 
 header
 {
+	top:0;
 	width: 100%;
 	padding: 15px;
 	background-color: rgb(109, 180, 199);
