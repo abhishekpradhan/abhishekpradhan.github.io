@@ -108,6 +108,12 @@ header
 		border-bottom: 1px solid black;
 	}
 
+	#projects .projectdescription ul li
+	{
+		width: auto;
+		padding-bottom: 5px;
+	}
+
 	#projects .projectimage
 	{
 		background-size: contain;
@@ -127,5 +133,10 @@ header
 	#projects .projectimage#dogepack
 	{
 		background-image: url(http://dogepack.com/assets/img/dpsmall.png);
+	}
+
+	#projects .projectimage#illinoisphone
+	{
+		background-image: url(http://www.ece.illinois.edu/viewphoto.asp?id=2071);
 	}
 
