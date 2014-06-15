@@ -95,10 +95,17 @@ header
 		margin-left:10px;
 		margin-right:0px;
 	}
-	#projects .projectdescription {
+
+	#projects .projectdescription 
+	{
 		float:left;
 		width: 226px;
 		vertical-align: middle;
+	}
+
+	#projects .projectdescription h3
+	{
+		border-bottom: 1px solid black;
 	}
 
 	#projects .projectimage
