@@ -110,7 +110,6 @@ header
 
 	#projects .projectimage
 	{
-		background-image: url(http://d1hwvnnkb0v1bo.cloudfront.net/content/art/app/icons/bing-icon.png);
 		background-size: contain;
 		background-position:center center;
 		background-repeat: no-repeat;
@@ -118,5 +117,15 @@ header
 		width: 150px;
 		height: 200px;
 		vertical-align: middle;
+	}
+
+	#projects .projectimage#bing
+	{
+		background-image: url(http://d1hwvnnkb0v1bo.cloudfront.net/content/art/app/icons/bing-icon.png);
+	}
+
+	#projects .projectimage#dogepack
+	{
+		background-image: url(http://dogepack.com/assets/img/dpsmall.png);
 	}
 
