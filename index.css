@@ -141,3 +141,9 @@ header
 		height: 350px;
 	}
 
+	#projects .projectimage#ecog
+	{
+		background-image: url(http://www.ncsa.illinois.edu/assets/img/logos_ncsa.png);
+		height: 350px;
+	}
+
