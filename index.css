@@ -151,3 +151,8 @@ header
 		background-image: url(http://ems.music.uiuc.edu/compmusic.jpg);
 	}
 
+	#projects .projectimage#newsgen
+	{
+		background-image: url(http://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Yahoo%21_logo.svg/1000px-Yahoo%21_logo.svg.png);
+	}
+
