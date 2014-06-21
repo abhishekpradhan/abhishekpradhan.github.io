@@ -115,6 +115,31 @@ header
 		padding-bottom: 5px;
 	}
 
+	#projects .projectdescription#bing
+	{
+		height: 217px;
+	}
+
+	#projects .projectdescription#ecog
+	{
+		height: 624px;
+	}
+
+	#projects .projectdescription#objectsearch
+	{
+		height: 221px;
+	}
+
+	#projects .projectdescription#seniorthesis
+	{
+		height: 271px;
+	}
+
+	#projects .projectdescription#homepage
+	{
+		height: 167px;
+	}
+
 	#projects .projectimage
 	{
 		background-size: contain;
