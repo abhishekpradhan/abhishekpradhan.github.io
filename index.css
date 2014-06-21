@@ -77,6 +77,7 @@ header
 	#projects li
 	{
 		display: inline-block;
+		vertical-align: top;
 		width: 398px;
 		box-sizing: border-box;
 	}
