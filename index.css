@@ -67,10 +67,14 @@ header
 
 #summary
 {
-	padding: 5px;
 	border: 1px rgb(100, 100, 100);
 	box-shadow: 0px 0px 6px rgb(150, 150, 150);
 	background-color: white;
+}
+
+#summary>p
+{
+	padding:10px;
 }
 
 #projects
